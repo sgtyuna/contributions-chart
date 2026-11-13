@@ -1,0 +1,18 @@
+# Supabase's free plan pauses a database after a week with no activity.
+# This asks the database one tiny question every day so it stays awake.
+name: Keep the database awake
+on:
+  schedule:
+    - cron: '17 9 * * *'
+  workflow_dispatch:
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ping
+        run: |
+          URL=$(sed -n 's/.*supabaseUrl: "\(.*\)".*/\1/p' web/config.js)
+          KEY=$(sed -n 's/.*supabaseKey: "\(.*\)".*/\1/p' web/config.js)
+          case "$URL" in http://127.0.0.1*) echo "Still pointing at the local test database; nothing to ping."; exit 0;; esac
+          curl -sf -X POST "$URL/rest/v1/rpc/ping" -H "apikey: $KEY" -H "Content-Type: application/json" -d '{}'

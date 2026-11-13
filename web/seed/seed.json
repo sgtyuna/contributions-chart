@@ -1,0 +1,192 @@
+{
+  "people": [
+    { "id": "mom", "name": "Mom", "role": "mom" }
+  ],
+  "texts": {
+    "welcome": "Welcome home. The ways we take care of each other, giving from the heart.",
+    "pick": "Who's here?",
+    "hard_ack": "Thanks for saying so.",
+    "unfinished_note": "Want to talk about this one at family meeting?",
+    "offline_note": "Will sync when you're back online.",
+    "meeting_intro": "A look at our week together.",
+    "nothing_yet": "Nothing here yet."
+  },
+  "starter": [
+    {
+      "kind": "daily", "icon": "🛏️",
+      "name": "Tidy your room",
+      "why": "So you can find your things and rest in a calm space.",
+      "thanks": "Your room is tidy. Now you can find your things and rest easy."
+    },
+    {
+      "kind": "daily", "icon": "🍽️",
+      "name": "Do the dishes",
+      "why": "So we have clean dishes and room to cook.",
+      "thanks": "The dishes are done. Now we have room to cook dinner."
+    },
+    {
+      "kind": "daily", "icon": "🛋️",
+      "name": "Quick tidy of the living room",
+      "why": "So everyone has a nice place to sit together.",
+      "thanks": "The living room is picked up. Now there's a nice place for all of us to sit together."
+    },
+    {
+      "kind": "daily", "icon": "🏠",
+      "name": "General tidy",
+      "why": "Put away anything of yours that's out around the house, so the house feels peaceful for everyone.",
+      "thanks": "Your things are put away. The house feels peaceful for everyone."
+    },
+    {
+      "kind": "weekly", "icon": "👕",
+      "name": "Wash your clothes",
+      "why": "So you have clean clothes to wear.",
+      "thanks": "Your clothes are washing. Soon you'll have clean clothes to wear."
+    },
+    {
+      "kind": "weekly", "icon": "🛌",
+      "name": "Wash your sheets",
+      "why": "So your bed is fresh and you sleep well.",
+      "thanks": "Your sheets are clean. Your bed will be fresh tonight."
+    },
+    {
+      "kind": "weekly", "icon": "🧺",
+      "name": "Hang up your laundry or put it in the dryer",
+      "why": "So it dries and doesn't sour in the washer.",
+      "thanks": "Your laundry is out of the washer. Now it can dry fresh instead of souring."
+    },
+    {
+      "kind": "weekly", "icon": "👖",
+      "name": "Fold and put away your clean laundry",
+      "why": "So your clothes stay neat and easy to find.",
+      "thanks": "Your clothes are folded and put away. They'll be neat and easy to find."
+    },
+    {
+      "kind": "weekly", "icon": "🧹",
+      "name": "Clean the living room",
+      "why": "Dust, vacuum, and wipe down, so the room stays healthy and welcoming.",
+      "thanks": "The living room is clean. It's a healthy, welcoming place to be."
+    },
+    {
+      "kind": "weekly", "icon": "🪴",
+      "name": "Clean the porch",
+      "why": "Sweep it off, so our home is welcoming from the moment someone walks up.",
+      "thanks": "The porch is swept. Our home looks welcoming the moment someone walks up."
+    }
+  ],
+  "ideas": [
+    {
+      "category": "Kitchen", "kind": "daily", "icon": "🧽",
+      "name": "Wipe the counters and table",
+      "why": "So we have a clean place to cook and eat.",
+      "thanks": "The counters and table are wiped. Now we have a clean place to cook and eat."
+    },
+    {
+      "category": "Kitchen", "kind": "daily", "icon": "🍴",
+      "name": "Set or clear the table",
+      "why": "So mealtime is ready for everyone and the table is free after.",
+      "thanks": "The table is ready. Now we can all sit down to eat together."
+    },
+    {
+      "category": "Kitchen", "kind": "weekly", "icon": "🥕",
+      "name": "Help cook a meal",
+      "why": "So the family is fed and the cooking is shared.",
+      "thanks": "You helped cook. Now we all have a meal, and the work was shared."
+    },
+    {
+      "category": "Kitchen", "kind": "once", "icon": "🛒",
+      "name": "Put away groceries",
+      "why": "So cold food stays fresh and we can find what we need.",
+      "thanks": "The groceries are put away. The cold food stays fresh and we can find what we need."
+    },
+    {
+      "category": "Trash", "kind": "weekly", "icon": "🗑️",
+      "name": "Take out trash and recycling",
+      "why": "So the house stays clean and smells fresh.",
+      "thanks": "The trash and recycling are out. The house stays clean and fresh."
+    },
+    {
+      "category": "Trash", "kind": "weekly", "icon": "🥬",
+      "name": "Take scraps to the compost",
+      "why": "So food scraps turn into rich soil for the garden.",
+      "thanks": "The scraps are in the compost. They'll turn into rich soil for the garden."
+    },
+    {
+      "category": "Bathroom", "kind": "weekly", "icon": "🪞",
+      "name": "Wipe the sink and mirror",
+      "why": "So the bathroom is clean and pleasant to use.",
+      "thanks": "The sink and mirror are clean. The bathroom is pleasant for everyone."
+    },
+    {
+      "category": "Bathroom", "kind": "weekly", "icon": "🚽",
+      "name": "Clean the toilet",
+      "why": "So the bathroom stays healthy for everyone.",
+      "thanks": "The toilet is clean. The bathroom is healthy for all of us."
+    },
+    {
+      "category": "Bathroom", "kind": "daily", "icon": "🧻",
+      "name": "Hang up towels",
+      "why": "So towels dry and are ready for the next person.",
+      "thanks": "The towels are hung up. They'll be dry and ready for the next person."
+    },
+    {
+      "category": "Floors", "kind": "weekly", "icon": "🧹",
+      "name": "Sweep or vacuum",
+      "why": "So the floors are clean for walking and sitting.",
+      "thanks": "The floor is swept. It's clean for walking and sitting."
+    },
+    {
+      "category": "Floors", "kind": "weekly", "icon": "🪣",
+      "name": "Mop the kitchen",
+      "why": "So the kitchen floor is clean and not sticky.",
+      "thanks": "The kitchen floor is mopped. It's clean underfoot."
+    },
+    {
+      "category": "Outside", "kind": "daily", "icon": "💧",
+      "name": "Water the plants or garden",
+      "why": "So the plants have what they need to grow.",
+      "thanks": "The plants are watered. They have what they need to grow."
+    },
+    {
+      "category": "Outside", "kind": "weekly", "icon": "🌱",
+      "name": "Pull weeds",
+      "why": "So the garden plants get the sun and water.",
+      "thanks": "The weeds are pulled. Now the garden plants get the sun and water."
+    },
+    {
+      "category": "Outside", "kind": "daily", "icon": "📬",
+      "name": "Bring in the mail",
+      "why": "So letters and packages get to the family safe and dry.",
+      "thanks": "The mail is in. Our letters and packages are safe and dry."
+    },
+    {
+      "category": "Outside", "kind": "once", "icon": "🍂",
+      "name": "Rake leaves",
+      "why": "So the yard is clear and the grass can breathe.",
+      "thanks": "The leaves are raked. The yard is clear and the grass can breathe."
+    },
+    {
+      "category": "Animals", "kind": "daily", "icon": "🐾",
+      "name": "Feed and water the pets",
+      "why": "So our animals are fed, safe, and cared for.",
+      "thanks": "The pets have food and water. They're cared for and content."
+    },
+    {
+      "category": "Animals", "kind": "weekly", "icon": "🦴",
+      "name": "Clean up after the pets",
+      "why": "So our animals and our home stay clean and healthy.",
+      "thanks": "The pet mess is cleaned up. Our animals and our home stay healthy."
+    },
+    {
+      "category": "Helping each other", "kind": "once", "icon": "🤝",
+      "name": "Help a brother with a contribution",
+      "why": "So the work is lighter and we feel like a team.",
+      "thanks": "You helped your brother. The work was lighter, and you two were a team."
+    },
+    {
+      "category": "Helping each other", "kind": "once", "icon": "📦",
+      "name": "Help Mom carry something in",
+      "why": "So nobody has to carry a heavy load alone.",
+      "thanks": "You helped carry it in. Mom didn't have to carry that load alone."
+    }
+  ]
+}
