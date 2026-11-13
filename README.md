@@ -20,6 +20,7 @@ specific thank-you.
 | `web/seed/seed.json` | Starter contributions, idea list, and app words. Loaded **once**, on first run; edits in the app are never overwritten. |
 | `web/config.js` | Which Supabase project to use (public key only) |
 | `supabase/migrations/` | Database tables, privacy rules, and PIN-checked functions |
+| `scripts/validate.py` | Quick checks CI runs on every pull request (content complete, no banned words, offline files present) |
 | `tests/acceptance.mjs` | The nine acceptance checks from the builder prompt, plus an offline check |
 | `.github/workflows/keep-awake.yml` | Daily ping so the free Supabase plan doesn't pause |
 
