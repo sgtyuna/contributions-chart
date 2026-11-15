@@ -1,6 +1,6 @@
 // Keeps the app itself on the device so it opens without internet.
 // Bump VERSION when any file below changes.
-const VERSION = 'cc-v1';
+const VERSION = 'cc-v2';
 const SHELL = [
   './', 'index.html', 'styles.css', 'app.js', 'config.js',
   'vendor/supabase-2.118.0.js', 'seed/seed.json', 'manifest.webmanifest',

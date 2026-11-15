@@ -226,9 +226,10 @@
   function toggle(c) {
     const k = currentCheck(c);
     if (k) {
-      // Un-check: no trace kept. If the check-off hasn't synced yet, just drop it.
+      // Un-check: no trace kept. If the check-off hasn't synced yet, just drop it
+      // (unless it's being sent right now; then queue a delete after it).
       const i = outbox.findIndex((op) => op.type === 'insert' && op.table === 'checkoffs' && op.row.id === k.id);
-      if (i >= 0) {
+      if (i >= 0 && !(flushing && i === 0)) {
         outbox.splice(i, 1);
         saveOutbox();
         db.checkoffs = db.checkoffs.filter((r) => r.id !== k.id);
