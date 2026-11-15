@@ -12,6 +12,16 @@ specific thank-you.
 - **Offline:** check-offs wait on the device and sync when the internet is back.
 - **Mom mode** behind a PIN: lists, ideas, requests, private "feels hard" notes, settings.
 
+## Still to do: getting it online
+
+1. **Merge this first pull request** on the Forge.
+2. **Sign in to Supabase:** make a free account at supabase.com, then run `supabase login` (it opens the browser to approve; nothing to copy).
+3. **Claude sets up the real database:** creates the Supabase project, loads `supabase/migrations/`, and puts the project's address and public key in `web/config.js` (that change comes as its own pull request).
+4. **Turn on GitHub Pages** for the public mirror so the app has a web address.
+5. **Mom makes the family account** in the app, confirms the email, and types the kids' names on the setup screen.
+6. **Claude turns off new sign-ups** in Supabase so nobody else can make an account.
+7. **Add to Home Screen** on each phone.
+
 ## Where things are
 
 | Path | What it is |
